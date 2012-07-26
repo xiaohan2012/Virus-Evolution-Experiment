@@ -100,6 +100,8 @@ def cal_avg_sift_from_complex(complex_path='data/HL_chain/1RD8-1918/complex.1000
     avg_sift.gen_avg_sift(fp_gen_path,sift_path)#generate average sift
     #gen_protein_protein_complex_avg_sift('1918_complex.pdb')
 
+def split_into_ligand_binder(fp,fun):
+
 if __name__ == '__main__':
     for fname in glob.glob('data/HL_chain/HL_Q464S3/*'):
         cal_avg_sift_from_complex(fname)

@@ -40,3 +40,4 @@ def gen_avg_sift(inname,oname):
 
     print 'write output pattern to %s' %oname
     pattern_fh.close()
+
